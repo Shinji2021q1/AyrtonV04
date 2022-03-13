@@ -3,24 +3,24 @@ let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   
 let info = `
-*Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de The Shadow Borkers - Bot*
+*Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de King Shadow Monarch - Bot*
 
 *➤ Grupos oficiales del Bot:*
-*1.-* https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
+*1.-* Proximamente
 
-*2.-* https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs
+*2.-* Proximamente
 
-*3.-* https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F
+*3.-* Proximamente
 
-*4.-* https://chat.whatsapp.com/CjexkGVr37J6GuSdDVAHzC
+*4.-* Proximamente
 
-*5.-* https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb
+*5.-* Proximamente
 
-*6.-* https://chat.whatsapp.com/GvrLSUSzVuT9P17CKfdxDa
+*6.-* Proximamente
 
-*7.-* https://chat.whatsapp.com/HylyPaLc49b9DWF67K8pdc
+*7.-* Proximamente
 
-*8.-* https://chat.whatsapp.com/IW12dLVoyWGHreGpX7rQIw
+*8.-* Proximamente
 `.trim() 
 
 conn.sendMessage(m.chat, info, MessageType.text, { quoted: { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net', fromMe: false }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": '🔥 THE SHADOW BROKERS - BOT 🔥', "jpegThumbnail": fs.readFileSync(`./Menu2.jpg`)}}}})}
